@@ -12,7 +12,7 @@ export default function Main() {
   return (
     <div className='visual_main'>
       <div className='visual_main_imgbox'>
-      <img src="/baggu_main_page_imgs/main_visual01.png" alt="" />
+      <img src={process.env.PUBLIC_URL + "/baggu_main_page_imgs/main_visual01.png"} alt="" />
       </div>
       <Main_Event/>
       <hr className="hrhr" />

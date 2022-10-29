@@ -26,9 +26,9 @@ export default function App() {
         modules={[Navigation, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><img src="./baggu_main_page_imgs/promotion6-1.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./baggu_main_page_imgs/promotion6-2.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./baggu_main_page_imgs/promotion6-3.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src={process.env.PUBLIC_URL + "/baggu_main_page_imgs/promotion6-1.jpg"} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={process.env.PUBLIC_URL + "/baggu_main_page_imgs/promotion6-2.jpg"} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={process.env.PUBLIC_URL + "/baggu_main_page_imgs/promotion6-3.jpg"} alt="" /></SwiperSlide>
       </Swiper>
     </>
   );

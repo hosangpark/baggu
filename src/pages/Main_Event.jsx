@@ -12,7 +12,7 @@ export default function Main_Event() {
           return (
             <div className="main_event_item" key={value.id}>
               <div className="event_img">
-                <img src={`/baggu_main_page_imgs/event_img0${i+1}.jpg`}/>
+                <img src={process.env.PUBLIC_URL + `/baggu_main_page_imgs/event_img0${i+1}.jpg`}/>
               </div>
               <div className="event_text">
                 <h3>{value.title}</h3>

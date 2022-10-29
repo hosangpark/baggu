@@ -16,7 +16,7 @@ export default function Standard(){
           data.map((value, i) => {
             return (
               <div className='strandard_product' key={value.id}>
-                <img src={value.img} onClick={() => {navigate('/standard/detail')}}/>
+                <img src={process.env.PUBLIC_URL + value.img} onClick={() => {navigate('/standard/detail')}}/>
                 <h3>{value.title}</h3>
                 <p>{value.price}</p>
                 <button onClick={() => {

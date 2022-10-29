@@ -14,7 +14,7 @@ export default function Brand_Story() {
           return (
             <div className="storywrap">
               <div className="story_imgbox">
-                <img src={value.img} />
+                <img src={process.env.PUBLIC_URL + value.img} />
                 <div className="story_hiddenbox">
                   <h3>{value.title}</h3>
                   <p>{value.comment}</p>

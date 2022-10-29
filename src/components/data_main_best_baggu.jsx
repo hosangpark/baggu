@@ -2,7 +2,7 @@
 const data_main_best_baggubag = [
   {
     id : 0, 
-    img : './baggu_main_page_imgs/standard_img01.jpg', 
+    img : '/baggu_main_page_imgs/standard_img01.jpg', 
     name :'바꾸 베이비 스트로베리',
     line_through_price : '12,000', 
     price : '10,900',
@@ -10,7 +10,7 @@ const data_main_best_baggubag = [
   },
   {
     id : 1, 
-    img : './baggu_main_page_imgs/standard_img02.jpg', 
+    img : '/baggu_main_page_imgs/standard_img02.jpg', 
     name :'바꾸 베이비 스트로베리',
     line_through_price : '12,000', 
     price : '10,900',
@@ -18,7 +18,7 @@ const data_main_best_baggubag = [
   },
   {
     id : 2, 
-    img : './baggu_main_page_imgs/standard_img03.jpg', 
+    img : '/baggu_main_page_imgs/standard_img03.jpg', 
     name :'바꾸 베이비 스트로베리',
     line_through_price : '12,000', 
     price : '10,900',
@@ -26,7 +26,7 @@ const data_main_best_baggubag = [
   },
   {
     id : 3, 
-    img : './baggu_main_page_imgs/standard_img04.jpg', 
+    img : '/baggu_main_page_imgs/standard_img04.jpg', 
     name :'바꾸 베이비 스트로베리',
     line_through_price : '12,000', 
     price : '10,900',

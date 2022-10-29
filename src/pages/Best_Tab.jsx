@@ -11,7 +11,7 @@ const content = [
         return (
           <div className="bestitem" id={value.id} key={value.id}>
             <div className="bestitem_imgwrap">
-              <img src={value.img}/>
+              <img src={process.env.PUBLIC_URL + value.img}/>
             </div>
             <div className="best_textwrap">
             <h3>{value.name}</h3>
@@ -31,7 +31,7 @@ const content = [
         return (
           <div className="bestitem" id={value.id} key={value.id}>
             <div className="bestitem_imgwrap">
-              <img src={value.img}/>
+              <img src={process.env.PUBLIC_URL + value.img}/>
             </div>
             <div className="best_textwrap">
             <h3>{value.name}</h3>
@@ -50,7 +50,7 @@ const content = [
         return (
           <div className="bestitem" id={value.id} key={value.id}>
             <div className="bestitem_imgwrap">
-              <img src={value.img}/>
+              <img src={process.env.PUBLIC_URL + value.img}/>
             </div>
             <div className="best_textwrap">
             <h3>{value.name}</h3>

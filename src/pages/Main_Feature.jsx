@@ -10,14 +10,14 @@ import Feature_Promotion7 from '../components/feature_promotion/Feature_Promotio
 import Feature_Promotion8 from '../components/feature_promotion/Feature_Promotion8'
 
 const content = [
-  { tab: <img src="./baggu_main_page_imgs/promotion1.png" alt=""/>,  content:  <Feature_Promotion1/>} ,
-  { tab: <img src="./baggu_main_page_imgs/promotion2.png" alt=""/>,  content:  <Feature_Promotion2/>},
-  { tab: <img src="./baggu_main_page_imgs/promotion3.png" alt=""/>,  content:  <Feature_Promotion3/>},
-  { tab: <img src="./baggu_main_page_imgs/promotion4.png" alt=""/>,  content:  <Feature_Promotion4/>},
-  { tab: <img src="./baggu_main_page_imgs/promotion5.png" alt=""/>,  content:  <Feature_Promotion5/>},
-  { tab: <img src="./baggu_main_page_imgs/promotion6.png" alt=""/>,  content:  <Feature_Promotion6/>},
-  { tab: <img src="./baggu_main_page_imgs/promotion7.png" alt=""/>,  content:  <Feature_Promotion7/>},
-  { tab: <img src="./baggu_main_page_imgs/promotion8.png" alt=""/>,  content:  <Feature_Promotion8/>},
+  { tab: <img src={process.env.PUBLIC_URL + "/baggu_main_page_imgs/promotion1.png"} alt=""/>,  content:  <Feature_Promotion1/>} ,
+  { tab: <img src={process.env.PUBLIC_URL + "/baggu_main_page_imgs/promotion2.png"} alt=""/>,  content:  <Feature_Promotion2/>},
+  { tab: <img src={process.env.PUBLIC_URL + "/baggu_main_page_imgs/promotion3.png"} alt=""/>,  content:  <Feature_Promotion3/>},
+  { tab: <img src={process.env.PUBLIC_URL + "/baggu_main_page_imgs/promotion4.png"} alt=""/>,  content:  <Feature_Promotion4/>},
+  { tab: <img src={process.env.PUBLIC_URL + "/baggu_main_page_imgs/promotion5.png"} alt=""/>,  content:  <Feature_Promotion5/>},
+  { tab: <img src={process.env.PUBLIC_URL + "/baggu_main_page_imgs/promotion6.png"} alt=""/>,  content:  <Feature_Promotion6/>},
+  { tab: <img src={process.env.PUBLIC_URL + "/baggu_main_page_imgs/promotion7.png"} alt=""/>,  content:  <Feature_Promotion7/>},
+  { tab: <img src={process.env.PUBLIC_URL + "/baggu_main_page_imgs/promotion8.png"} alt=""/>,  content:  <Feature_Promotion8/>},
 ];
 
 const useTabs = (initialTabs, allTabs) => {

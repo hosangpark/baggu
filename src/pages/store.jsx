@@ -5,7 +5,7 @@ let cart = createSlice({
   initialState:[
     {    
     id: 'product01',
-    img:'./baggu_main_page_imgs/standard_img01.jpg',
+    img:'/baggu_main_page_imgs/standard_img01.jpg',
     count:0,
     title: 'standard bag1',
     price: 6750
