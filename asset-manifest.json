@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/baggu_react/static/css/main.71e5cd22.css",
+    "main.js": "/baggu_react/static/js/main.ff1b2315.js",
+    "static/js/787.d6dd7736.chunk.js": "/baggu_react/static/js/787.d6dd7736.chunk.js",
+    "index.html": "/baggu_react/index.html",
+    "main.71e5cd22.css.map": "/baggu_react/static/css/main.71e5cd22.css.map",
+    "main.ff1b2315.js.map": "/baggu_react/static/js/main.ff1b2315.js.map",
+    "787.d6dd7736.chunk.js.map": "/baggu_react/static/js/787.d6dd7736.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71e5cd22.css",
+    "static/js/main.ff1b2315.js"
+  ]
+}
