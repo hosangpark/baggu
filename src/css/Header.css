@@ -1,0 +1,66 @@
+
+.original_header {
+  position: fixed;
+    color: white;
+    width: 100%;
+}
+
+.change_header {
+  position: fixed;
+  top:0px;
+    color: black;
+    background-color: rgb(250, 247, 229);
+    width: 100%;
+    border-bottom: 2px solid #535353;
+    z-index: 10;
+}
+
+
+/* header */
+.nav_gnb{
+  display: flex;
+  width: 95%;
+  margin: 10px auto;
+}
+.change_nav_gnb{
+  display: flex;
+  width: 95%;
+  margin: 10px auto;
+}
+.nav_gnb span{
+  font-size: 60px;
+  transition: all 0.3s;
+}
+.change_nav_gnb span{
+  font-size: 35px;
+  transition: all 0.5s;
+}
+/* 
+.search_icon{
+} 
+*/
+.header_logo{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.cart_person_icon{
+  display: flex;
+}
+.nav_lnb{
+  width: 90%;
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  letter-spacing: -0.1em;
+}
+.nav_lnb li{
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* .nav_lnb li:hover{
+  color: white;
+} */

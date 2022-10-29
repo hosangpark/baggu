@@ -3,8 +3,13 @@ import { configureStore, createSlice } from "@reduxjs/toolkit"
 let cart = createSlice({
   name:'cart',
   initialState:[
-    {id:0,name:'어묵1',count:1},
-    {id:3,name:'어묵3',count:3},
+    {    
+    id: 'product01',
+    img:'./baggu_main_page_imgs/standard_img01.jpg',
+    count:0,
+    title: 'standard bag1',
+    price: 6750
+  }
   ],
     reducers : {
     addCount(state, action) {
@@ -18,6 +23,7 @@ let cart = createSlice({
       }
     },
     addItem(state, action) {
+      alert('장바구니에 추가되었습니다.')
       state.push(action.payload)
     }
   }
