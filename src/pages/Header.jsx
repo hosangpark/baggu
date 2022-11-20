@@ -28,7 +28,7 @@ useEffect(()=>{
         </span>
       </div>
       <ul className="nav_lnb">
-        <li onClick={() => {navigate('/about')}}>FANNY PACK</li>
+        <li onClick={() => {navigate('/')}}>FANNY PACK</li>
         <li onClick={() => {navigate('/standard')}}>STANDARD</li>
         <li>BABY</li>
         <li>WINE BAG</li>
