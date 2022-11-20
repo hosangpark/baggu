@@ -21,14 +21,14 @@ useEffect(()=>{
     <div className={scrollPosition < 100 ? "original_header" : "change_header"}>
       <div className={scrollPosition < 100 ? "nav_gnb" : "change_nav_gnb"}>
         <span className='search_icon'><FiSearch onClick={() => {navigate('/cart')}}/></span>
-        <span className='header_logo' onClick={() => {navigate('/')}}>BAGGU</span>
+        <span className='header_logo' onClick={() => {navigate('/project_baggu')}}>BAGGU</span>
         <span className='cart_person_icon'>
           <AiOutlineShoppingCart onClick={() => {navigate('/cart')}}/>
           <MdPersonOutline onClick={() => {navigate('/cart')}}/>
         </span>
       </div>
       <ul className="nav_lnb">
-        <li onClick={() => {navigate('/')}}>FANNY PACK</li>
+        <li>FANNY PACK</li>
         <li onClick={() => {navigate('/standard')}}>STANDARD</li>
         <li>BABY</li>
         <li>WINE BAG</li>
